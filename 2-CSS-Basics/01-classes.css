@@ -1,0 +1,24 @@
+body {
+    background-color: blue;
+}
+/* rukle-set #2:Everything withiong a css-classes will have a lightgray background. */
+.css-classes {
+    background-color: lightgray;
+}
+
+/* rule-set#3: Al h1 tags within  the css-classes class will have a front-size of 18 pixels.*/
+.css-classes h1 {
+    font-size: 18px;
+    
+}
+
+/*rule-set#4: All of the pa tags withion Css-classes class will have green font 16 pixels high.*/
+.css-classes p {
+    font-size: 16px;
+    color: green;
+
+}
+/*rule-set #5: All the li items within sthe css-classes class will have a blue font.*/
+.css-classes li {
+    color: navy;
+}

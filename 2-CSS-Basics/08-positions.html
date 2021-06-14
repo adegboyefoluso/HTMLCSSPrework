@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <link rel="stylesheet" type="text/css" href="08-positions.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="nav">
+            <p>This div has a fixed position </p>
+        </div>
+        <div class="positioning">
+            <h1>Position</h1>
+            <p>The position property specifies the type of positioning method used for an element. The four position values are :</p>
+            <ul>
+                <li><b>fixed:</b>this will pin something to a spot, and it ,will stay there as you scrol.(ex: nav bar) Fixed position takes elements out of the normal document flow.</li>
+                <li><b>Static:</b>this is the default setting, it is not affected by top botoom, left and right properties. It is always postioned according to the normal flow of the page</li>
+                <li><b>relative:</b>does not take element out of thier normal document flow. still appears <br> within its space/div/container, but allows it to be offset a bit from the top, bottom, right left . <br>
+                Top right bottom and left properties will move it away from its normal position. Other content will not be adjusted to fit into any gap left by the element.</li>
+                <li><b>absolute:</b>takes element out of the normal document flow , If a parent element position ,is set to relative, and the child element is set to absolute  <br>
+                 the child element's new(0,0) cordionate ,will be the upper left hand corner of the parent element instead  of the whole page.</li>
+               
+            </ul>
+            <p>The <b>z-index</b>property alows yoiu to override the normal stacking order of the page. <br> tHe default is 0, and you can set that value to be positive or negative.
+            <br> An element with a greater z-index will stack in fromn of an element with a lower z-index . if two elements have the same z-index, or don't have one assigned, the element <br>
+        postioned last ,in the HTML will show on top. You must have a position assigned in order to assign a z-index.</p>
+        </div>
+        <div class="lotsofttext">
+            <h2>Here is some text , so you can scroll and see the div with a fixed position example.</h2>
+            <p>Lorem ipsum dolor sit amet, consecttetur adispicing elit , sed do eiumond <br> temper incididunt ut labore et do,lore magna aliqua. Ut enim  and mini veniam, <br>
+            quis nostrud exercuitation ullamco laboris nisi  ut aliquip ex ea comodo <br> consequant duis aute irure dolor in reprehenderit in volupatate velit esse cillium dolore <br>
+            eu fugitat nulla pariatur. Exepteur sint occaecant cupidatat non prodient , sunt in culpa qui offivial desernet millot aniul id  est laboranum
+            </p>
+            <p>Lorem ipsum dolor sit amet, consecttetur adispicing elit , sed do eiumond <br> temper incididunt ut labore et do,lore magna aliqua. Ut enim  and mini veniam, <br>
+                quis nostrud exercuitation ullamco laboris nisi  ut aliquip ex ea comodo <br> consequant duis aute irure dolor in reprehenderit in volupatate velit esse cillium dolore <br>
+                eu fugitat nulla pariatur. Exepteur sint occaecant cupidatat non prodient , sunt in culpa qui offivial desernet millot aniul id  est laboranum
+            </p>
+            <p>Lorem ipsum dolor sit amet, consecttetur adispicing elit , sed do eiumond <br> temper incididunt ut labore et do,lore magna aliqua. Ut enim  and mini veniam, <br>
+             quis nostrud exercuitation ullamco laboris nisi  ut aliquip ex ea comodo <br> consequant duis aute irure dolor in reprehenderit in volupatate velit esse cillium dolore <br>
+            eu fugitat nulla pariatur. Exepteur sint occaecant cupidatat non prodient , sunt in culpa qui offivial desernet millot aniul id  est laboranum
+            </p>
+            <p>Lorem ipsum dolor sit amet, consecttetur adispicing elit , sed do eiumond <br> temper incididunt ut labore et do,lore magna aliqua. Ut enim  and mini veniam, <br>
+             quis nostrud exercuitation ullamco laboris nisi  ut aliquip ex ea comodo <br> consequant duis aute irure dolor in reprehenderit in volupatate velit esse cillium dolore <br>
+            eu fugitat nulla pariatur. Exepteur sint occaecant cupidatat non prodient , sunt in culpa qui offivial desernet millot aniul id  est laboranum
+           </p>
+           <p>Lorem ipsum dolor sit amet, consecttetur adispicing elit , sed do eiumond <br> temper incididunt ut labore et do,lore magna aliqua. Ut enim  and mini veniam, <br>
+            quis nostrud exercuitation ullamco laboris nisi  ut aliquip ex ea comodo <br> consequant duis aute irure dolor in reprehenderit in volupatate velit esse cillium dolore <br>
+           eu fugitat nulla pariatur. Exepteur sint occaecant cupidatat non prodient , sunt in culpa qui offivial desernet millot aniul id  est laboranum
+           </p>
+           <p>Lorem ipsum dolor sit amet, consecttetur adispicing elit , sed do eiumond <br> temper incididunt ut labore et do,lore magna aliqua. Ut enim  and mini veniam, <br>
+            quis nostrud exercuitation ullamco laboris nisi  ut aliquip ex ea comodo <br> consequant duis aute irure dolor in reprehenderit in volupatate velit esse cillium dolore <br>
+           eu fugitat nulla pariatur. Exepteur sint occaecant cupidatat non prodient , sunt in culpa qui offivial desernet millot aniul id  est laboranum
+           </p>
+           <p>Lorem ipsum dolor sit amet, consecttetur adispicing elit , sed do eiumond <br> temper incididunt ut labore et do,lore magna aliqua. Ut enim  and mini veniam, <br>
+            quis nostrud exercuitation ullamco laboris nisi  ut aliquip ex ea comodo <br> consequant duis aute irure dolor in reprehenderit in volupatate velit esse cillium dolore <br>
+           eu fugitat nulla pariatur. Exepteur sint occaecant cupidatat non prodient , sunt in culpa qui offivial desernet millot aniul id  est laboranum
+           </p>
+           <p>Lorem ipsum dolor sit amet, consecttetur adispicing elit , sed do eiumond <br> temper incididunt ut labore et do,lore magna aliqua. Ut enim  and mini veniam, <br>
+            quis nostrud exercuitation ullamco laboris nisi  ut aliquip ex ea comodo <br> consequant duis aute irure dolor in reprehenderit in volupatate velit esse cillium dolore <br>
+           eu fugitat nulla pariatur. Exepteur sint occaecant cupidatat non prodient , sunt in culpa qui offivial desernet millot aniul id  est laboranum
+           </p>
+           <p>Lorem ipsum dolor sit amet, consecttetur adispicing elit , sed do eiumond <br> temper incididunt ut labore et do,lore magna aliqua. Ut enim  and mini veniam, <br>
+            quis nostrud exercuitation ullamco laboris nisi  ut aliquip ex ea comodo <br> consequant duis aute irure dolor in reprehenderit in volupatate velit esse cillium dolore <br>
+           eu fugitat nulla pariatur. Exepteur sint occaecant cupidatat non prodient , sunt in culpa qui offivial desernet millot aniul id  est laboranum
+           </p>
+           <p>Lorem ipsum dolor sit amet, consecttetur adispicing elit , sed do eiumond <br> temper incididunt ut labore et do,lore magna aliqua. Ut enim  and mini veniam, <br>
+            quis nostrud exercuitation ullamco laboris nisi  ut aliquip ex ea comodo <br> consequant duis aute irure dolor in reprehenderit in volupatate velit esse cillium dolore <br>
+           eu fugitat nulla pariatur. Exepteur sint occaecant cupidatat non prodient , sunt in culpa qui offivial desernet millot aniul id  est laboranum
+           </p>
+           <p>Lorem ipsum dolor sit amet, consecttetur adispicing elit , sed do eiumond <br> temper incididunt ut labore et do,lore magna aliqua. Ut enim  and mini veniam, <br>
+            quis nostrud exercuitation ullamco laboris nisi  ut aliquip ex ea comodo <br> consequant duis aute irure dolor in reprehenderit in volupatate velit esse cillium dolore <br>
+           eu fugitat nulla pariatur. Exepteur sint occaecant cupidatat non prodient , sunt in culpa qui offivial desernet millot aniul id  est laboranum
+           </p>
+        </div>
+    </div>
+</body>
+</html>
